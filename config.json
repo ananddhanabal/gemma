@@ -1,11 +1,12 @@
 {
+  "_name_or_path": "/data/models/gemma/gemma-2b-it-converted",
   "architectures": [
     "GemmaForCausalLM"
   ],
   "attention_bias": false,
   "attention_dropout": 0.0,
-  "bos_token_id": 1,
-  "eos_token_id": 2,
+  "bos_token_id": 2,
+  "eos_token_id": 1,
   "head_dim": 256,
   "hidden_act": "gelu",
   "hidden_size": 2048,
@@ -16,6 +17,7 @@
   "num_attention_heads": 8,
   "num_hidden_layers": 18,
   "num_key_value_heads": 1,
+  "pad_token_id": 0,
   "rms_norm_eps": 1e-06,
   "rope_scaling": null,
   "rope_theta": 10000.0,
