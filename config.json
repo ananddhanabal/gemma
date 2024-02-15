@@ -1,5 +1,4 @@
 {
-  "_name_or_path": "/data/models/gemma/gemma-2b-it-converted",
   "architectures": [
     "GemmaForCausalLM"
   ],
@@ -21,7 +20,7 @@
   "rms_norm_eps": 1e-06,
   "rope_scaling": null,
   "rope_theta": 10000.0,
-  "torch_dtype": "float32",
+  "torch_dtype": "bfloat16",
   "transformers_version": "4.38.0.dev0",
   "use_cache": true,
   "vocab_size": 256000
