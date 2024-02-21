@@ -6,6 +6,9 @@ widget:
       <start_of_turn>user
       How does the brain work?<end_of_turn>
       <start_of_turn>model
+inference:
+  parameters:
+    max_new_tokens: 200
 extra_gated_heading: "Access Gemma on Hugging Face"
 extra_gated_prompt: "To access Gemma on Hugging Face, you’re required to review and agree to Google’s usage license. To do this, please ensure you’re logged-in to Hugging Face and click below. Requests are processed immediately."
 extra_gated_button_content: "Acknowledge license"
