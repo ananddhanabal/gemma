@@ -19,7 +19,7 @@ This model card corresponds to the 2B instruct version of the Gemma model. You c
 
 * [Responsible Generative AI Toolkit](https://ai.google.dev/responsible)
 * [Gemma on Kaggle](https://www.kaggle.com/models/google/gemma)
-* [Gemma on Vertex Model Garden](https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/335)
+* [Gemma on Vertex Model Garden](https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/335?version=gemma-2b-it-gg-hf)
 
 **Terms of Use**: [Terms](https://www.kaggle.com/models/google/gemma/license/consent)
 
