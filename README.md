@@ -206,7 +206,7 @@ prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prom
 At this point, the prompt contains the following text:
 
 ```
-<start_of_turn>user
+<bos><start_of_turn>user
 Write a hello world program<end_of_turn>
 <start_of_turn>model
 ```
@@ -221,7 +221,7 @@ chat template.
 After the prompt is ready, generation can be performed like this:
 
 ```py
-inputs = tokenizer.encode(prompt, add_special_tokens=True, return_tensors="pt")
+inputs = tokenizer.encode(prompt, add_special_tokens=False, return_tensors="pt")
 outputs = model.generate(input_ids=inputs.to(model.device), max_new_tokens=150)
 ```
 
