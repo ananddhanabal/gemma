@@ -211,7 +211,7 @@ Write a hello world program<end_of_turn>
 <start_of_turn>model
 ```
 
-As you can see, each turn is preceeded by a `<start_of_turn>` delimiter and then the role of the entity
+As you can see, each turn is preceded by a `<start_of_turn>` delimiter and then the role of the entity
 (either `user`, for content supplied by the user, or `model` for LLM responses). Turns finish with
 the `<end_of_turn>` token.
 
