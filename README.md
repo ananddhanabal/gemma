@@ -2,10 +2,9 @@
 library_name: transformers
 tags: []
 widget:
-  - text: |
-      <start_of_turn>user
-      How does the brain work?<end_of_turn>
-      <start_of_turn>model
+- messages:
+  - role: user
+    content: How does the brain work?
 inference:
   parameters:
     max_new_tokens: 200
